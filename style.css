@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Century Gothic;
+    color: #FFFFFF;
+}
+
+.top {
+    background-color: #FFFFFF;
+    width: 1800px;
+    height: 240px;
+
+
+}
+
+.bottom {
+    background-color: #FFFFFF;
+    width: 1800px;
+    height: 219px;
+    top: 2019px;
+
+
+}
+
+.middle {
+    background-color: #0F1320;
+    width: 1800px;
+    height: 700px;
+    padding-left: 12px;
+    /* border-radius: 0 60% 0 60%; */
+}
+
+.circle-group {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    top: 50px;
+}
+
+.circle-1 {
+    border-radius: 100%;
+    background-color: #22A75D;
+    width: 82px;
+    height: 82px;
+}
+
+.circle-2 {
+    border-radius: 100%;
+    background-color: #2278D4;
+    width: 82px;
+    height: 82px;
+}
+
+.circle-3 {
+    border-radius: 100%;
+    background-color: #FFD100;
+    width: 82px;
+    height: 82px;
+}
+
+.circle-4 {
+    border-radius: 100%;
+    background-color: #E20613;
+    width: 82px;
+    height: 82px;
+}
+
+.small-circle-1 {
+    position: relative;
+    border-radius: 100%;
+    background-color: #22A75D;
+    width: 12px;
+    height: 12px;
+}
+
+
+
+.small-circle-2 {
+    position: relative;
+    border-radius: 100%;
+    background-color: #2278D4;
+    width: 12px;
+    height: 12px;
+}
+
+.small-circle-3 {
+    position: relative;
+    border-radius: 100%;
+    background-color: #FFD100;
+    width: 12px;
+    height: 12px;
+}
+
+.small-circle-4 {
+    position: relative;
+    border-radius: 100%;
+    background-color: #E20613;
+    width: 12px;
+    height: 12px;
+}
+
+.read-more {
+    position: relative;
+    border: 2px solid #22A75D;
+    background-color: #0F1320;
+    width: 147px;
+    height: 48px;
+    border-radius: 52px;
+    bottom: 650px;
+}
+
+.about-company {
+    display: flex;
+    padding-top: 1rem;
+}
+
+.about-company-headline {
+    display: flex;
+    padding-top: 56px;
+}
+
+.mobile-image {
+    display: none;
+}
+
+.phne-image {
+    width: 891px;
+    height: 928px;
+}
+
+.quarter {
+    position: relative;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 36px;
+    text-align: center;
+    color: #0F1320;
+    top: 20px;
+}
+
+.about-company-logo {
+    width: 52.7px;
+    height: 32.87px;
+} 
+
+
+@media only screen and (max-width: 380px) {
+    .top, .middle, .bottom {
+        width: auto;
+        height: auto; 
+    }
+
+    .circle-group {
+        flex-direction: column; 
+        align-items: center;
+        gap: 10px;
+    }
+
+    .read-more {
+        margin: 0 auto;
+        bottom: 50px;
+    }
+
+    .about-company-text, .about-company-headline, .about-company-logo, .read-more, .bottom, .top, .desktop-image {
+        display: none;
+    }
+
+    .mobile-image {
+        display: block;
+    }
+
+    .phne-image {
+        width: 100%; 
+        padding-top: 56px;
+    }
+
+    .quarter {
+        font-size: 18px;
+    }
+}
+
